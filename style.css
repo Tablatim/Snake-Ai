@@ -1,0 +1,17 @@
+body {
+    grid-row: 1;
+    display:flex
+}
+
+#main-div {
+    display: block;
+    position: relative;
+    text-align: center;
+    color: white;
+    background-color: rgb(51,51,51);
+    height: 600px;
+    width: calc(100% - 600px);
+    margin:0;
+    padding: 0;
+    border-right: solid black;
+}
